@@ -2,7 +2,7 @@
 from rx.subject import Subject
 from typing import Callable, Dict
 
-
+ 
 class ConcreteObserverA:
     def __init__(self, name="ObserverA"):
         self.name = name
